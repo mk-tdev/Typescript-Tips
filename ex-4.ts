@@ -8,3 +8,6 @@ const addIdToObject = <TObject>(obj: TObject): TObject & { id: string } => {
 }
 
 const output = addIdToObject<{ fName: string, lName: string }>({ fName: 'muthu', lName: 'kumar' });
+
+
+// ===================================================

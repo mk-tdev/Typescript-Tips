@@ -11,3 +11,4 @@ type Example2 = MyGenericType<number>;
 
 // We can use 'MyGenericType' to represent many different types
 // Type helpers/functions
+// ===================================================

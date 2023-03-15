@@ -10,3 +10,5 @@ const getData = <Tdata>(url: string): Promise<Tdata> => {
 getData<{ fName: string, lName: string }>("/api/getCustomerInfo").then((res) => {
   console.log(res)
 })
+
+// ===================================================

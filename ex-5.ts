@@ -13,3 +13,5 @@ type Result2 = ReturnType<() => number>;
 // and then get the awaited version of that 
 type Result = GetPromiseReturnType<() => Promise<{ fName: string, lName: string }>>;
 type ErrorLine = GetPromiseReturnType<string>;
+
+// ===================================================
