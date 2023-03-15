@@ -12,3 +12,12 @@ type Example2 = MyGenericType<number>;
 // We can use 'MyGenericType' to represent many different types
 // Type helpers/functions
 // ===================================================
+
+
+// type MyGenericType = {
+//   data: any
+// }
+
+// type Example1 = MyGenericType;
+
+// type Example2 = MyGenericType;

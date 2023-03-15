@@ -7,12 +7,16 @@ const set = new Set<number>();
 
 set.add(1)
 
-// set.add("asd")
+set.add("asd")
 
-const arr = [...new Set([1, 2, 1])]
+
 
 // ===================================================
 
+// const set = new Set();
 
+// set.add(1)
+// set.add("asd")
 
+// const arr = [...new Set([1, 2, 1])]
 

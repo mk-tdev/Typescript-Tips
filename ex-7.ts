@@ -11,3 +11,12 @@ const res = typedObjectKeys({
 })
 
 // ===================================================
+
+// const typedObjectKeys = <TObj extends {}>(obj: TObj): Array<keyof TObj> => {
+//   return Object.keys(obj);
+// }
+
+// const res = typedObjectKeys({
+//   name: 'John',
+//   age: 30
+// })

@@ -15,3 +15,12 @@ type Result = GetPromiseReturnType<() => Promise<{ fName: string, lName: string 
 type ErrorLine = GetPromiseReturnType<string>;
 
 // ===================================================
+// typescript constraints
+
+// type GetPromiseReturnType<T> = Awaited<ReturnType<T>>;
+
+// type Result1 = Awaited<Promise<string>>;
+// type Result2 = ReturnType<() => number>;
+
+// type Result = GetPromiseReturnType<() => Promise<{ fName: string, lName: string }>>;
+// type ErrorLine = GetPromiseReturnType<string>;

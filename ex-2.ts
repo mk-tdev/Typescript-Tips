@@ -12,3 +12,13 @@ getData<{ fName: string, lName: string }>("/api/getCustomerInfo").then((res) => 
 })
 
 // ===================================================
+
+// const getData = (url: string) => {
+//   return fetch(url).then((res) => res.json());
+// }
+
+// // run time arg
+// // type arg
+// getData("/api/getCustomerInfo").then((res) => {
+//   console.log(res)
+// })
